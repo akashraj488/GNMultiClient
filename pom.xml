@@ -130,7 +130,8 @@
     <version>3.0.0-M4</version>
     <configuration>
       <suiteXmlFiles>
-        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+        <suiteXmlFile>src/test/resources/testng-clientGN.xml</suiteXmlFile>
+	<suiteXmlFile>src/test/resources/testng-clientMercy.xml</suiteXmlFile>
       </suiteXmlFiles>
     </configuration>
  </plugin>
