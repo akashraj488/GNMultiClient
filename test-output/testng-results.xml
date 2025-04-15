@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-14T19:27:44 IST" name="Mercy Smoke Suite" finished-at="2025-04-14T19:28:21 IST" duration-ms="37470">
+    <groups>
+    </groups>
+    <test started-at="2025-04-14T19:27:44 IST" name="Mercy Smoke Test" finished-at="2025-04-14T19:28:21 IST" duration-ms="37470">
+      <class name="com.testcases.Mercy.Dashboard">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.Mercy.Dashboard@1b2abca6]" started-at="2025-04-14T19:27:44 IST" name="beforeTest" finished-at="2025-04-14T19:27:51 IST" duration-ms="6902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="dashboardload()[pri:1, instance:com.testcases.Mercy.Dashboard@1b2abca6]" started-at="2025-04-14T19:27:51 IST" name="dashboardload" finished-at="2025-04-14T19:27:55 IST" duration-ms="3924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardload -->
+        <test-method signature="verifyUserProfileDropdown()[pri:2, instance:com.testcases.Mercy.Dashboard@1b2abca6]" started-at="2025-04-14T19:27:55 IST" name="verifyUserProfileDropdown" finished-at="2025-04-14T19:27:56 IST" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserProfileDropdown -->
+        <test-method signature="navItems()[pri:3, instance:com.testcases.Mercy.Dashboard@1b2abca6]" started-at="2025-04-14T19:27:56 IST" name="navItems" finished-at="2025-04-14T19:28:14 IST" duration-ms="17565" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[https://qa-mercy.sageite.com/m/transactions was not found in the sidebar]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: https://qa-mercy.sageite.com/m/transactions was not found in the sidebar
+at org.testng.Assert.fail(Assert.java:111)
+at com.testcases.Mercy.Dashboard.navItems(Dashboard.java:113)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navItems -->
+        <test-method signature="fund()[pri:4, instance:com.testcases.Mercy.Dashboard@1b2abca6]" started-at="2025-04-14T19:28:14 IST" name="fund" finished-at="2025-04-14T19:28:15 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fund -->
+        <test-method signature="pending()[pri:5, instance:com.testcases.Mercy.Dashboard@1b2abca6]" started-at="2025-04-14T19:28:15 IST" name="pending" finished-at="2025-04-14T19:28:15 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pending -->
+        <test-method signature="article()[pri:6, instance:com.testcases.Mercy.Dashboard@1b2abca6]" started-at="2025-04-14T19:28:15 IST" name="article" finished-at="2025-04-14T19:28:19 IST" duration-ms="4191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- article -->
+        <test-method signature="verifyLogoutFunctionality()[pri:8, instance:com.testcases.Mercy.Dashboard@1b2abca6]" started-at="2025-04-14T19:28:19 IST" name="verifyLogoutFunctionality" finished-at="2025-04-14T19:28:21 IST" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutFunctionality -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testcases.Mercy.Dashboard@1b2abca6]" started-at="2025-04-14T19:28:21 IST" name="afterTest" finished-at="2025-04-14T19:28:21 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testcases.Mercy.Dashboard -->
+    </test> <!-- Mercy Smoke Test -->
+  </suite> <!-- Mercy Smoke Suite -->
+</testng-results>

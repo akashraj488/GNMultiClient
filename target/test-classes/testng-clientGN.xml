@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GN smoke Suite">
+  <listeners>
+  	<listener class-name="utility.Report"/>
+  </listeners>
+ 
+  <test thread-count="5" name="GN smoke test">
+  <parameter name="browser" value="chrome" />
+ <parameter name="reportname" value="GN" />
+  <parameter name="key" value="true" />
+
+    <classes>
+      <class name="com.testcases.GN.URLSmoke"/>
+      
+    </classes>
+  </test> <!-- GN smoke test -->
+</suite> <!-- GN smoke Suite -->
