@@ -11,7 +11,7 @@
   <parameter name="key" value="true" />
 
     <classes>
-            <class name="com.testcases.Mercy.Dashboard"/>
+            <class name="com.testcases.Mercy.Login"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
